@@ -1,0 +1,1 @@
+function bukajendela(url) {	newwindow=window.open(url,'name','height=450,width=500,scrollbars=1,left=100,top=100');	if (window.focus) {newwindow.focus()}}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Peging*/
+
+div.paging{
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;
+	margin: 2px;
+	padding: 2px;
+}
+div.paging a{
+	color: #0000FF;
+	text-decoration: none;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border: 1px solid #CCCCCC;
+}
+div.paging a:hover{
+	color: #000000;
+	background-color: #33FF00;
+	border: 1px solid #2b66a5;
+}
+div.paging span.current{
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0000FF;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border: 1px solid navy;
+}
+div.paging span.disabled{
+	color: #999999;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border: 1px solid #999999;
+}
+div.paging span.prevnext{
+	font-weight: bold;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}

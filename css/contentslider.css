@@ -1,0 +1,73 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+width: 920px; /*width of featured content slider*/
+height: 330px;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+width: 920px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+float:left;
+z-index:1;
+}
+
+#paginate-slider2 {
+	width:100%;
+	float:left;
+	background-image:url(../images/cat_bg_line.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+#paginate-slider2 a.selected{
+	border:#e3e3e3 solid 1px;
+	border-bottom:none;
+	float:left;
+	margin-right:5px;
+}
+#paginate-slider2 a.selected span{
+	border:#fff solid 1px;
+	border-bottom:none;
+	background-image:url(../images/tabs_rol.gif);
+	background-repeat:repeat-x;
+	padding:3px 10px 0px 10px;
+	height:23px;
+	display:inline-block;
+}
+#paginate-slider2 a{
+	border:transparent solid 1px;
+	border-bottom:none;
+	float:left;
+	margin-right:5px;
+}
+#paginate-slider2 a span{
+	border:transparent solid 1px;
+	border-bottom:none;
+	padding:3px 10px 0px 10px;
+	height:23px;
+	display:inline-block;
+}
+#paginate-slider2 a:hover{
+	border:#e3e3e3 solid 1px;
+	border-bottom:none;
+	float:left;
+	margin-right:5px;
+}
+#paginate-slider2 a span:hover{
+	border:#fff solid 1px;
+	border-bottom:none;
+	background-image:url(../images/tabs_rol.gif);
+	background-repeat:repeat-x;
+	padding:3px 10px 0px 10px;
+	height:23px;
+	display:inline-block;
+}
+
+#slider2 {
+	float:left;}

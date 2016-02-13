@@ -1,0 +1,31 @@
+.visualize 		{ left: 23px; position: absolute; top: 63px; }
+.chart-wrap		{ min-height: 420px; margin: 0px 0px 10px 350px; }
+.visualize1		{ float: left; width: 100%;}
+.visualize2		{ float: left; width: 100%;}
+.visualize3		{ float: left; width: 100%;}
+.visualize4		{ float: left; width: 100%;}
+
+/*demo styles*/
+table.visalize		{ float: left; height: 200px; margin-left: 30px; }
+table.accessHide 	{ position: absolute; left: -999999px; }
+
+/*visualize extension styles*/
+div.visualize 		{ margin: 60px 0 0 30x; padding: 70px 40px 90px; background: url('../images/bck_black_10.png'); border: 1px solid #CCCCCC; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin: 0px; float: left; }
+.visualize canvas 	{ border: 1px solid #aaa; display: block; margin: -1px; background: #fff; }
+
+.visualize-labels-x, 
+.visualize-labels-y 	{ top: 70px; left: 40px; z-index: 100; }
+
+.visualize-pie .visualize-labels 	{ position: absolute; top: 70px; left: 40px; }
+.visualize-labels-x li span.label, 
+.visualize-labels-y li span.label 	{ color: #444; font-size: 12px; padding-right: 5px; }
+.visualize-labels-y li span.line 	{ border-style: solid;  opacity: .7; }
+.visualize .visualize-info 			{ border: 0; position: static;  opacity: 1; background: none; }
+.visualize .visualize-title 		{ position: absolute; top: 20px; color: #333; margin-bottom: 0; left: 20px; font-size: 24px; font-weight: bold; }
+.visualize ul.visualize-key 		{ position: absolute; bottom: 15px; background: #eee; z-index: 10; padding: 10px 0; color: #aaa; width: 100%; left: 0;  }
+.visualize ul.visualize-key li 		{ font-size: 1.2em;  margin-left: 20px; padding-left: 18px; }
+
+.visualize ul.visualize-key .visualize-key-color 	{ width: 10px; height: 10px;  margin-top: -4px; }
+.visualize ul.visualize-key .visualize-key-label 	{ color: #333; }
+
+.chart-wrap caption	{ background: url('../images/bck_black_10.png'); color: #333333; font-weight: bold; padding: 4px; border-bottom: 1px solid #BBBBBB; }
